@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: Manrope,sans-serif;
+}
+.bg-navy{
+    background-color: #343f52 !important;
+}
+.text-purple{
+    color: #747ed1;
+}
+.purple{
+    background-color: #747ed1;
+}
+.text-grey{
+    color: #343f52 !important;
+}
+.text-light-grey{
+    color: #cacaca !important;
+}
+.card-footer{
+    background-color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: .7rem;
+    color: #aab0bc;
+    font-size: 14px;
+}
+
+.card-date{
+    display: inline-block;
+}
+.card-theme{
+    display: inline-block;
+}
+a:hover{
+    color: #747ed1 !important;
+    text-decoration: none;
+}
+.btn-wpurple,.btn-wpurple:hover{
+    background-color: #747ed1;
+    color: white;
+    font-weight: 700;
+}
+
+.btn-purple{
+    background-color: #747ed1;
+    color: white;
+    font-weight: 700;
+}
+.btn-purple:hover{
+    transition: all .5s ease-in-out;
+    background-color: #747ed1;
+    color: white;
+    transform: translateY(-10px);
+}
+
+h3{
+    font-weight: 700;
+    color: #343f52;
+    word-spacing: 0.1rem;
+    letter-spacing: -.01rem;
+    font-size: 22px;
+}
+p {
+    font-size: 1rem;
+    color: #60697B;
+}
+.lead{
+    font-weight: 400;
+}
+.bg-img{
+    background-size: cover;
+    width: 100%;
+    background: url("../img/bg4.jpg") no-repeat fixed center center;
+    z-index: 0;
+    background-color: #4731a0;
+}
+.bg-purple{
+    /*background-color: #4731a0;*/
+    color: white;
+}
+boby > header li a{
+    color: currentColor;
+}
+.active-header{
+    box-shadow: 0 0 1.25rem rgba(30,34,40,.04);
+    background: rgba(255,255,255,.97);
+    transition: all .3s ease-in-out,border 1ms linear,padding-right 0s;
+}

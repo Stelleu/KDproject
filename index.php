@@ -1,6 +1,7 @@
 <?php
 namespace App;
 
+include "conf.inc.php";
 function myAutoloader($class){
     $class = str_ireplace("App\\", "", $class);
     $class = str_ireplace("\\", "/", $class);
@@ -22,9 +23,9 @@ if (!$route[$uri] || !$route[$uri]["controller"] || !$route[$uri]["action"] ){
 }
 $controller = ucfirst(strtolower($route[$uri]["controller"]));
 $action = strtolower($route[$uri]["action"]);
-$controllerFile = "Controller/".$controller."class.php";
+$controllerFile = "Controller/".$controller.".class.php";
 if (!file_exists($controllerFile)){
-    die("Le fichier n'existe pas");
+    die("Le fichier n'existe pas ici");
 }
 include $controllerFile;
 $controller = "App\\Controller\\".$controller;
